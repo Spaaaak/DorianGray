@@ -1,3 +1,30 @@
-.cloudHard {
-    color: gray;
+
+
+.small-portrait {
+    border: solid 2px yellow;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+
+}
+
+.big-portrait {
+    font-size: 13vh;
+    border: solid 20px yellow;
+    padding: 50px;
+    width: 700px;
+    height: 300px;
+    line-height: 300px; 
+    /* Line-height centre le texte dans le cadre */
+    text-align: center;
+    margin-left: 50vh;   
+}
+
+.harry {
+    font-size: 34vh;
+    margin-left: 20vh; 
+}
+
+html.sr .harry {
+    visibility: hidden;
 }

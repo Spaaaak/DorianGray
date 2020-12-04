@@ -3,15 +3,35 @@
         <!DOCTYPE html>
 <html>
     <head>
-        <title>Projet-Gray</title>
         <meta charset="UTF-8">
+        <title>Projet-Gray</title>
+        <link rel="stylesheet"  href="Css/style.css">
+        <script src="https://unpkg.com/scrollreveal@4"> </script>
+
+        <script>
+            ScrollReveal({ reset:true})
+        </script>
+
 
     </head>
     <body>
         <!-- Personnages -->
 <h1 class="dorian">Dorian Gray</h1>
-<h2 class="basil">Basil</h2>
-<h1 class="harry">Lord Harry</h1>
+<h2 class="harry">Lord Harry</h2>
+<h3 class="basil">Basil</h3>
+
+<script>
+ScrollReveal().reveal('.dorian', { delay: 100});
+ScrollReveal().reveal('.harry', { delay: 2000 });
+ScrollReveal().reveal('.basil', { delay: 2000 });
+
+</script>
+
+        <!-- Portrait -->
+
+<p class="small-portrait">Dorian Gray</p>
+<p class="big-portrait">Dorian Gray</p>
+
         <!-- Nuage de mots soft -->
 <div class="cloudEasy">
 <p>food</p>
