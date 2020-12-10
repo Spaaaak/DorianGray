@@ -1,30 +1,92 @@
 
 
-.small-portrait {
-    border: solid 2px yellow;
-    padding: 10px;
-    width: 100px;
-    text-align: center;
-
-}
-
-.big-portrait {
-    font-size: 13vh;
-    border: solid 20px yellow;
-    padding: 50px;
-    width: 700px;
-    height: 300px;
-    line-height: 300px; 
-    /* Line-height centre le texte dans le cadre */
-    text-align: center;
-    margin-left: 50vh;   
-}
-
 .harry {
     font-size: 34vh;
     margin-left: 20vh; 
 }
 
-html.sr .harry {
-    visibility: hidden;
+
+#cloud {
+    display: flex;
+    flex-direction: column;
 }
+
+.cloudEasy {
+
+
+}
+
+.easy-1 {
+position: absolute;
+width: 100vh;
+
+}
+
+.easy-2 {
+    position: absolute;
+    width: 100vh;
+}
+
+.easy-3 {
+    position: absolute;
+    width: 100vh;
+}
+
+    .cloudMid {
+    
+}
+
+    .mid-soft {
+    position: absolute;
+    width: 100vh;
+}
+
+    .mid-1 {
+    position: absolute;
+    width: 100vh;
+}
+
+    .mid-2 {
+    position: absolute;
+    width: 100vh;
+}
+
+    .mid-3 {
+    position: absolute;
+    width: 100vh;
+}
+
+    .mid-4 {
+    position: absolute;
+    width: 100vh;
+}
+
+        .cloudHard {
+
+        }
+
+        .hard-soft {
+            position: absolute;
+            width: 100vh;
+        }
+
+        .hard-mid {
+            position: absolute;
+            width: 100vh;
+        }
+
+        .hard-1 {
+            position: absolute;
+            width: 100vh;
+        }
+
+        .hard-2 {
+            position: absolute;
+            width: 100vh;
+        }
+
+        .hard-3 {
+            position: absolute;
+            width: 100vh;
+        }
+

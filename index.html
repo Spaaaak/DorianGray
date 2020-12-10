@@ -6,11 +6,6 @@
         <meta charset="UTF-8">
         <title>Projet-Gray</title>
         <link rel="stylesheet"  href="Css/style.css">
-        <script src="https://unpkg.com/scrollreveal@4"> </script>
-
-        <script>
-            ScrollReveal({ reset:true})
-        </script>
 
 
     </head>
@@ -20,81 +15,56 @@
 <h2 class="harry">Lord Harry</h2>
 <h3 class="basil">Basil</h3>
 
-<script>
-ScrollReveal().reveal('.dorian', { delay: 100});
-ScrollReveal().reveal('.harry', { delay: 2000 });
-ScrollReveal().reveal('.basil', { delay: 2000 });
-
-</script>
 
         <!-- Portrait -->
 
-<p class="small-portrait">Dorian Gray</p>
-<p class="big-portrait">Dorian Gray</p>
+
 
         <!-- Nuage de mots soft -->
-<div class="cloudEasy">
-<p>food</p>
-<p>fun</p>
-<p>drink</p>
-<p>women</p>
-<p>art</p>
+        <!-- Les nuages de mots sont couper en plusiquer partie pour faire
+             apparaitre les mots petit à petit et non en bloc -->
+<div id="cloud">
+             
+    <div class="cloudEasy">
+    <img class="easy-1"  src="/Img/nuage-mot/cloud-soft/1-1.png">
+    <img class="easy-2" src="Img/nuage-mot/cloud-soft/1-2.png">
+    <img class="easy-3" src="Img/nuage-mot/cloud-soft/1-3.png">
 
-<p>party</p>
-<p>eat</p>
-<p>alcool</p>
-<p>satiety</p>
+    </div>
 
-<p>ego</p>
-<p>overflow</p>
-<p>lust</p>
-<p>devouring</p>
-</div>
+        <!-- Nuage de mots moyen  -->
+    <div class="cloudMid">
+    <img class="mid-soft" src="Img/nuage-mot/cloud-mid/Mid-soft.png">
+    <!-- "Mid-soft" est l'image du nuage précedent, en plus petit et avec une opacité moindre -->
+    <img class="mid-1" src="Img/nuage-mot/cloud-mid/Mid-1.png">
+    <img class="mid-2" src="Img/nuage-mot/cloud-mid/mid-2.png">
+    <img class="mid-3" src="/Img/nuage-mot/cloud-mid/mid-3.png">
+    <img class="mid-4" src="/Img/nuage-mot/cloud-mid/mid-4.png">
 
-        <!-- Nuage de mots Hard  -->
-<div class="cloudHard">
-<p>greatness</p>
-<p>debauchery</p>
-<p>wantonness</p>
-<p>selfishness</p>
-<p>glut</p>
+    </div>
+         <!-- Nuage de mots hard  -->
+    <div class="cloudHard">
+    <img class="hard-soft" src="/Img/nuage-mot/cloud-hard/hard-soft.png">
+    <img class="hard-mid" src="/Img/nuage-mot/cloud-hard/hard-mid.png">
+    <img class="hard-1" src="/Img/nuage-mot/cloud-hard/hard-1.png">
+    <img class="hard-2" src="/Img/nuage-mot/cloud-hard/hard-2.png">
+    <img class="hard-3" src="Img/nuage-mot/cloud-hard/hard-3.png">
 
-<p>pride</p>
-<p>vainglory</p>
-<p>vainness</p>
-<p>violence</p>
-<p>overabundance</p>
-<p>disturbance</p>
-<p>jealous</p>
-
-<p>fury</p>
-<p>cold</p>
-<p>insolence</p>
-<p>extravagance</p>
-<p>imbalance</p>
+    </div>
 
 </div>
 
-<div class="cloudHardcore">
-<p>drunkenness</p>
-<p>intoxication</p>
-<p>overstatement</p>
-<p>force-feed</p>
 
-<p>excess</p>
-<p>exorbitancy</p>
-<p>terror</p>
-<p>dread</p>
-<p>panic</p>
-<p>cruelty</p>
 
-<p>melancholy</p>
-<p>sadness</p>
-<p>stress</p>
-<p>accumulation</p>
-<p>murder</p>
-<p>violence</p>
-</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+</script>
+
+<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+<script src="js/reveal.js"></script>
+
+
 
     </body>
 </html>
