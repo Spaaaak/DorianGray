@@ -6,10 +6,7 @@
 }
 
 
-#cloud {
-    display: flex;
-    flex-direction: column;
-}
+
 
 .cloudEasy {
 
@@ -17,47 +14,54 @@
 }
 
 .easy-1 {
-position: absolute;
-width: 100vh;
+position: relative;
+width: 150vh;
 
 }
 
 .easy-2 {
-    position: absolute;
-    width: 100vh;
-}
-
-.easy-3 {
-    position: absolute;
-    width: 100vh;
-}
-
-    .cloudMid {
+    position: relative;
+    width: 150vh;
+    left: 20px;
+    top: -750px
     
 }
 
-    .mid-soft {
-    position: absolute;
-    width: 100vh;
+.easy-3 {
+    position: relative;
+    width: 150vh;
+    top : -1500px ;
+
+
 }
 
-    .mid-1 {
-    position: absolute;
-    width: 100vh;
+         .cloudMid {
+         
+        }
+
+            .mid-soft {
+            position: relative;
+            width: 100vh;
+            left: 40px;
+            }
+
+            .mid-1 {
+            position: relative;
+            width: 100vh;
 }
 
     .mid-2 {
-    position: absolute;
+    position: relative;
     width: 100vh;
 }
 
     .mid-3 {
-    position: absolute;
+    position: relative;
     width: 100vh;
 }
 
     .mid-4 {
-    position: absolute;
+    position: relative;
     width: 100vh;
 }
 
@@ -66,27 +70,27 @@ width: 100vh;
         }
 
         .hard-soft {
-            position: absolute;
+            position: relative;
             width: 100vh;
         }
 
         .hard-mid {
-            position: absolute;
+            position: relative;
             width: 100vh;
         }
 
         .hard-1 {
-            position: absolute;
+            position: relative;
             width: 100vh;
         }
 
         .hard-2 {
-            position: absolute;
+            position: relative;
             width: 100vh;
         }
 
         .hard-3 {
-            position: absolute;
+            position: relative;
             width: 100vh;
         }
 
