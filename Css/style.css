@@ -4,6 +4,51 @@
     width: 100%;
     justify-content: center; 
 }
+/* ---------- PERSONNAGES CONTAINER ----------   */
+.perso-container {
+    display: grid;
+    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
+    height: 50vh;
+    width: 100vw;
+    border:blue 5px solid;
+}
+
+.dorian {
+    position: absolute;
+    font-size: 100px;
+   
+
+}
+
+.basil {
+    position: absolute;
+    font-size: 100px;
+    left: 50%;
+}
+
+.tableau {
+
+}
+
+/* ---------- HARRY CONTAINER ----------   */
+
+.harry-container {
+    display: grid;
+    grid-template: repeat(3, 122px) 1fr / repeat(11, 160px) 1fr; 
+    height: 40vh;
+    width: 100vw;
+    border:orange 5px solid;
+
+}
+
+.harry {
+font-size: 100px;
+grid-column-start: 5;
+grid-column-end: 8;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+
 
 /* ---------- CADRE1 CONTAINER ---------- */
 .cadre1-container {
@@ -12,7 +57,6 @@
         height: 150vh;
         width: 100vw;
         border: red 5px solid;
-
 }
 
 .cadre1-container img {
@@ -20,15 +64,15 @@
 }
 
 .cadre1{
-    position: absolute;
-    bottom: -50%;
-    right: 15%; 
+grid-column-start: 2;
+grid-row-start: 3;
+
 }
 
 .portrait-1 {
-    position: absolute;
-    bottom: -50%;
-    right: 15%;  
+grid-column-start: 2;
+grid-row-start: 3;
+    
 }
 
    
@@ -48,9 +92,8 @@
 }
 
 .cloudEasy {    
-    position: absolute;
-    bottom: -200%;
-    right: 15%;      
+    grid-column-start: 2;
+    grid-row-start: 3;
 
 }
 
@@ -68,16 +111,14 @@
     height: 90vh;
 }
 
-.cadre2{
-    position: absolute;
-    bottom: -350%;
-    right: 15%; 
+.cadre-2{
+    grid-column-start: 2;
+    grid-row-start: 3;
 }
 
 .portrait-2 {
-    position: absolute;
-    bottom: -350%;
-    right: 14%;  
+    grid-column-start: 2;
+    grid-row-start: 3;
 }
 
 /* ---------- MID CONTAINER ---------- */
@@ -94,9 +135,8 @@
 }
 
 .cloudMid {    
-    position: absolute;
-    bottom: -500%;
-    right: 15%;      
+    grid-column-start: 2;
+    grid-row-start: 3;    
 }
 
 /* ---------- CADRE3 CONTAINER ---------- */
@@ -113,26 +153,15 @@
     height: 90vh;
 }
 
-
-.cadre3-A {
-    position: absolute;
-    bottom: -660%;
-    right: 15%; 
-}
-
-.cadre3-B {
-    position: absolute;
-    bottom:-660%;
-    right: 16%;
-    /* Animation de gauche à droite */
+.cadre-3{
+    grid-column-start: 2;
+    grid-row-start: 3;
 }
 
 .portrait-3 {
-    position: absolute;
-    bottom: -660%;
-    right: 15%;  
+    grid-column-start: 2;
+    grid-row-start: 3;
 }
-
 /* ---------- HARD CONTAINER ---------- */
 
 .hard-container {
@@ -147,9 +176,8 @@
 }
 
 .cloudHard{
-    position: absolute;
-    bottom: -800%;
-    right: 10%; 
+    grid-column-start: 2;
+    grid-row-start: 3;
 }
 
 /* ---------- CADRE4 CONTAINER ---------- */
@@ -166,38 +194,14 @@
     height: 90vh;
 }
 
-.cadre4-A {
-    position: absolute;
-    bottom: -960%;
-    right: 15%; 
+.cadre-4 {
+    grid-column-start: 2;
+    grid-row-start: 3;
 }
 
-.cadre4-B {
-    position: absolute;
-    bottom:-960%;
-    right: 16%;
-    /* Animation de gauche à droite */
-}
-
-.portrait4-A {
-    position: absolute;
-    bottom: -960%;
-    right: 15%; 
-    /* Animation de gauche à droite */ 
-}
-
-.portrait4-B {
-    position: absolute;
-    bottom: -960%;
-    right: 17%;
-    /* Animation de gauche à droite */  
-}
-
-.portrait4-C {
-    position: absolute;
-    bottom: -960%;
-    right: 11%;  
-    /* Animation de gauche à droite */
+.portrait-4 {
+    grid-column-start: 2;
+    grid-row-start: 3;
 }
 
 /* ---------- TOTAL CONTAINER ---------- */
@@ -215,9 +219,8 @@
 }
 
 .cloudTotal{
-    position: absolute;
-    bottom: -1110%;
-    right: 0%; 
+    grid-column-start: 1;
+    grid-row-start: 1; 
 }
 
 /* ------------ CADRE 5 ------------  */
@@ -233,89 +236,17 @@
     height: 90vh;
 }
 
-.cadre5-A {
-    position: absolute;
-    bottom: -1240%;
-    right: 15%; 
-    /* Animation de gauche à droite */
+.cadre-5{
+    grid-column-start: 2;
+    grid-row-start: 3;
 }
 
-.cadre5-B {
-    position: absolute;
-    bottom: -1240%;
-    right: 15%; 
-    /* Animation de gauche à droite */
+.portrait-5{
+    grid-column-start: 2;
+    grid-row-start: 3;
 }
 
-.cadre5-C {
-    position: absolute;
-    bottom: -1240%;
-    right: 15%; 
-    /* Animation de gauche à droite */
-}
 
-.cadre5-D {
-    position: absolute;
-    bottom: -1240%;
-    right: 15%; 
-    /* Animation de gauche à droite */
-}
-
-.portrait5-A {
-    position: absolute;
-    bottom: -1240%;
-    right: 15%;
-     /* Animation de gauche à droite */
-}
-
-.portrait5-B {
-    position: absolute;
-    bottom: -1240%;
-    right: 15%;
-     /* Animation de gauche à droite */
-}
-
-.portrait5-C {
-    position: absolute;
-    bottom: -1240%;
-    right: 15%;
-     /* Animation de gauche à droite */
-}
-
-.portrait5-D {
-    position: absolute;
-    bottom: -1240%;
-    right: 15%;
-     /* Animation de gauche à droite */
-}
-
-.portrait5-E {
-    position: absolute;
-    bottom: -1240%;
-    right: 15%;
-     /* Animation de gauche à droite */
-}
-
-.portrait5-F {
-    position: absolute;
-    bottom: -1240%;
-    right: 15%;
-     /* Animation de gauche à droite */
-}
-
-.portrait5-G {
-    position: absolute;
-    bottom: -1240%;
-    right: 15%;
-     /* Animation de gauche à droite */
-}
-
-.portrait5-H {
-    position: absolute;
-    bottom: -1240%;
-    right: 15%;
-     /* Animation de gauche à droite */
-}
 
 /* ------------ CADRE 6 ------------  */
 .cadre6-container {
@@ -331,13 +262,11 @@
 }
 
 .cadre6{
-    position: absolute;
-    bottom: -1400%;
-    right: 15%; 
+    grid-column-start: 2;
+    grid-row-start: 3;
 }
 
 .portrait-6 {
-    position: absolute;
-    bottom: -1400%;
-    right: 15%;
+    grid-column-start: 2;
+    grid-row-start: 3;
 }
