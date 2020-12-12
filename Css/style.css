@@ -5,10 +5,10 @@
     justify-content: center; 
 }
 
-/* CADRE1 CONTAINER */
+/* ---------- CADRE1 CONTAINER ---------- */
 .cadre1-container {
         display: grid;
-        grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; /* 8 rangées de 122px + 1 fractional unit (espace restant) + 10 colonnes de 160px + 1 fractional unit */
+        grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
         height: 150vh;
         width: 100vw;
         border: red 5px solid;
@@ -28,37 +28,37 @@
 .portrait-1 {
     position: absolute;
     bottom: -50%;
-    right: 14%;  
+    right: 15%;  
 }
 
    
-/* SOFT CONTAINER */
+/* ---------- SOFT CONTAINER ---------- */
 
 .soft-container {
     display: grid;
-    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; /* 8 rangées de 122px + 1 fractional unit (espace restant) + 10 colonnes de 160px + 1 fractional unit */
+    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
     height: 150vh;
     width: 100vw;
     border: blue 5px solid;
 }
 
 .soft-container img {
-    height: 100vh;
+    height: 80vh;
     
 }
 
 .cloudEasy {    
     position: absolute;
     bottom: -200%;
-    right: 5%;      
+    right: 15%;      
 
 }
 
-/* CADRE2 CONTAINER */
+/* ---------- CADRE2 CONTAINER ---------- */
 
 .cadre2-container {
     display: grid;
-    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; /* 8 rangées de 122px + 1 fractional unit (espace restant) + 10 colonnes de 160px + 1 fractional unit */
+    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
     height: 150vh;
     width: 100vw;
     border: orange 5px solid;
@@ -78,4 +78,266 @@
     position: absolute;
     bottom: -350%;
     right: 14%;  
+}
+
+/* ---------- MID CONTAINER ---------- */
+
+.mid-container {
+    display: grid;
+    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
+    width: 100vw;
+    border:violet 5px solid;
+}
+
+.mid-container img {
+    height: 100vh;
+}
+
+.cloudMid {    
+    position: absolute;
+    bottom: -500%;
+    right: 15%;      
+}
+
+/* ---------- CADRE3 CONTAINER ---------- */
+
+.cadre3-container {
+    display: grid;
+    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
+    height: 150vh;
+    width: 100vw;
+    border: gray 5px solid;
+}
+
+.cadre3-container img{
+    height: 90vh;
+}
+
+
+.cadre3-A {
+    position: absolute;
+    bottom: -660%;
+    right: 15%; 
+}
+
+.cadre3-B {
+    position: absolute;
+    bottom:-660%;
+    right: 16%;
+    /* Animation de gauche à droite */
+}
+
+.portrait-3 {
+    position: absolute;
+    bottom: -660%;
+    right: 15%;  
+}
+
+/* ---------- HARD CONTAINER ---------- */
+
+.hard-container {
+    display: grid;
+    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
+    width: 100vw;
+    border: greenyellow 5px solid;
+}
+
+.hard-container img {
+    height: 100vh;
+}
+
+.cloudHard{
+    position: absolute;
+    bottom: -800%;
+    right: 10%; 
+}
+
+/* ---------- CADRE4 CONTAINER ---------- */
+
+.cadre4-container {
+    display: grid;
+    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
+    height: 150vh;
+    width: 100vw;
+    border: royalblue 5px solid;
+}
+
+.cadre4-container img{
+    height: 90vh;
+}
+
+.cadre4-A {
+    position: absolute;
+    bottom: -960%;
+    right: 15%; 
+}
+
+.cadre4-B {
+    position: absolute;
+    bottom:-960%;
+    right: 16%;
+    /* Animation de gauche à droite */
+}
+
+.portrait4-A {
+    position: absolute;
+    bottom: -960%;
+    right: 15%; 
+    /* Animation de gauche à droite */ 
+}
+
+.portrait4-B {
+    position: absolute;
+    bottom: -960%;
+    right: 17%;
+    /* Animation de gauche à droite */  
+}
+
+.portrait4-C {
+    position: absolute;
+    bottom: -960%;
+    right: 11%;  
+    /* Animation de gauche à droite */
+}
+
+/* ---------- TOTAL CONTAINER ---------- */
+
+.total-container {
+    display: grid;
+    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
+    height: 150vh;
+    width: 100vw;
+    border: yellow 5px solid;
+}
+
+.total-container img {
+    height: 120vh;
+}
+
+.cloudTotal{
+    position: absolute;
+    bottom: -1110%;
+    right: 0%; 
+}
+
+/* ------------ CADRE 5 ------------  */
+.cadre5-container {
+    display: grid;
+    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
+    height: 150vh;
+    width: 100vw;
+    border: red 5px solid;
+}
+
+.cadre5-container img{
+    height: 90vh;
+}
+
+.cadre5-A {
+    position: absolute;
+    bottom: -1240%;
+    right: 15%; 
+    /* Animation de gauche à droite */
+}
+
+.cadre5-B {
+    position: absolute;
+    bottom: -1240%;
+    right: 15%; 
+    /* Animation de gauche à droite */
+}
+
+.cadre5-C {
+    position: absolute;
+    bottom: -1240%;
+    right: 15%; 
+    /* Animation de gauche à droite */
+}
+
+.cadre5-D {
+    position: absolute;
+    bottom: -1240%;
+    right: 15%; 
+    /* Animation de gauche à droite */
+}
+
+.portrait5-A {
+    position: absolute;
+    bottom: -1240%;
+    right: 15%;
+     /* Animation de gauche à droite */
+}
+
+.portrait5-B {
+    position: absolute;
+    bottom: -1240%;
+    right: 15%;
+     /* Animation de gauche à droite */
+}
+
+.portrait5-C {
+    position: absolute;
+    bottom: -1240%;
+    right: 15%;
+     /* Animation de gauche à droite */
+}
+
+.portrait5-D {
+    position: absolute;
+    bottom: -1240%;
+    right: 15%;
+     /* Animation de gauche à droite */
+}
+
+.portrait5-E {
+    position: absolute;
+    bottom: -1240%;
+    right: 15%;
+     /* Animation de gauche à droite */
+}
+
+.portrait5-F {
+    position: absolute;
+    bottom: -1240%;
+    right: 15%;
+     /* Animation de gauche à droite */
+}
+
+.portrait5-G {
+    position: absolute;
+    bottom: -1240%;
+    right: 15%;
+     /* Animation de gauche à droite */
+}
+
+.portrait5-H {
+    position: absolute;
+    bottom: -1240%;
+    right: 15%;
+     /* Animation de gauche à droite */
+}
+
+/* ------------ CADRE 6 ------------  */
+.cadre6-container {
+    display: grid;
+    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
+    height: 150vh;
+    width: 100vw;
+    border: blueviolet 5px solid;
+}
+
+.cadre6-container img {
+    height: 90vh;
+}
+
+.cadre6{
+    position: absolute;
+    bottom: -1400%;
+    right: 15%; 
+}
+
+.portrait-6 {
+    position: absolute;
+    bottom: -1400%;
+    right: 15%;
 }
