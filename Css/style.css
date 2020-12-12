@@ -1,4 +1,81 @@
 .content-container{
     display: flex;
-        
+    flex-direction: column;   
+    width: 100%;
+    justify-content: center; 
+}
+
+/* CADRE1 CONTAINER */
+.cadre1-container {
+        display: grid;
+        grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; /* 8 rangées de 122px + 1 fractional unit (espace restant) + 10 colonnes de 160px + 1 fractional unit */
+        height: 150vh;
+        width: 100vw;
+        border: red 5px solid;
+
+}
+
+.cadre1-container img {
+    height: 90vh;
+}
+
+.cadre1{
+    position: absolute;
+    bottom: -50%;
+    right: 15%; 
+}
+
+.portrait-1 {
+    position: absolute;
+    bottom: -50%;
+    right: 14%;  
+}
+
+   
+/* SOFT CONTAINER */
+
+.soft-container {
+    display: grid;
+    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; /* 8 rangées de 122px + 1 fractional unit (espace restant) + 10 colonnes de 160px + 1 fractional unit */
+    height: 150vh;
+    width: 100vw;
+    border: blue 5px solid;
+}
+
+.soft-container img {
+    height: 100vh;
+    
+}
+
+.cloudEasy {    
+    position: absolute;
+    bottom: -200%;
+    right: 5%;      
+
+}
+
+/* CADRE2 CONTAINER */
+
+.cadre2-container {
+    display: grid;
+    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; /* 8 rangées de 122px + 1 fractional unit (espace restant) + 10 colonnes de 160px + 1 fractional unit */
+    height: 150vh;
+    width: 100vw;
+    border: orange 5px solid;
+}
+
+.cadre2-container img {
+    height: 90vh;
+}
+
+.cadre2{
+    position: absolute;
+    bottom: -350%;
+    right: 15%; 
+}
+
+.portrait-2 {
+    position: absolute;
+    bottom: -350%;
+    right: 14%;  
 }

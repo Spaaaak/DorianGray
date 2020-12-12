@@ -10,26 +10,29 @@
     <div class="content-container">   
 
         <!-- Personnages -->
-        <div class="grid perso">
-            <div class="conteneurDorian">
-            <h1 class="dorian">Dorian Gray</h1>
-        </div>
+        <h1 class="dorian">Dorian Gray</h1>    
         <h2 class="harry">Lord Harry</h2>
-        <h3 class="basil">Basil</h3>
-            
+        <div class="basil-container">
+            <h3 class="basil">Basil</h3>
+            <div class="tableau"></div>    
+        </div>
+
         <!-- /************CADRE************** -->
-        <div class="grid cadre1 "> 
-            <div class="cadre-1">
-                <img class="cadre-1" src="img/Cadre/1/C1.png">
-                <img class="portrait-1" src="/img/mot-portrait/1/D1.png">
-            </div>    
+        <div class="cadre1-container"> 
+            <div class="cadre1">
+                <img class="cadre1" src="img/Cadre/1/C1.png">
+            </div> 
+            <img class="portrait-1" src="Img/mot-portrait/1/D1.png">   
         </div>  
+
+        <!-- /************Portrait************** -->
+       
 
         <!-- Nuage de mots soft -->
         <!-- Les nuages de mots sont couper en plusiquer partie pour faire apparaitre les mots petit à petit et non en bloc -->
-        <div class="grid nuage1">
+        <div class="soft-container">
             <div class="cloudEasy">
-                <img class="easy-1" src="/img/nuage-mot/cloud-soft/1-1.png">
+                <img class="easy-1" src="/Img/nuage-mot/cloud-soft/1-1.png">
             </div>
             <div class="cloudEasy">
                 <img class="easy-2" src="img/nuage-mot/cloud-soft/1-2.png">
@@ -40,15 +43,15 @@
         </div>
 
         <!-- /************CADRE************** -->
-        <div class="grid cadre2"> 
+      <div class="cadre2-container"> 
             <div class="cadre-2">
-                <img class="cadre-2" src="img/Cadre/1/C1.png">
+                <img class="cadre2" src="img/Cadre/1/C1.png">
                 <img class="portrait-2" src="img/mot-portrait/2/D2.png">
             </div>    
         </div>  
 
         <!-- Nuage de mots moyen  -->
-        <div class="grid nuage2">
+        <!-- <div class="mid-container">
             <div class="cloudMid">
                 <img class="mid-soft" src="img/nuage-mot/cloud-mid/Mid-soft.png"> 
             </div>
@@ -64,10 +67,10 @@
             <div class="cloudMid">
                 <img class="mid-4" src="/img/nuage-mot/cloud-mid/mid-4.png">
             </div>
-        </div>
+        </div> -->
         
         <!-- Nuage de mots hard  -->
-        <div class="grid nuage">     
+        <!-- <div class="hard-container">     
             <div class="cloudHard">
                 <img class="hard-soft" src="/img/nuage-mot/cloud-hard/hard-soft.png">
             </div>
@@ -83,8 +86,8 @@
             <div class="cloudHard">
                 <img class="hard-3" src="img/nuage-mot/cloud-hard/hard-3.png"> 
             </div>
-        </div>
-    </div>
+        </div> -->
+    </div> 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
