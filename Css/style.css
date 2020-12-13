@@ -4,50 +4,191 @@
     width: 100%;
     justify-content: center; 
 }
+
+/* ---------- DORIAN ANIM ----------   */
+
+.dorian-anim-1{
+    font-family: looking-flowers-caps, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px;
+    position: absolute;
+    animation: infinite D1 3s;
+    top: 300px;
+    left: 600px;
+    
+    }
+
+.dorian-anim-2 {
+    font-family: bc-rebecca-sharp, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 160px;
+    position: absolute;
+    opacity: 0%;
+    animation: infinite D2 3s;
+    animation-delay: 1.8s;
+    top: 900px;
+    left: 600px;
+    
+}
+
+.dorian-anim-3 {
+    font-family: looking-flowers-caps, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px; 
+    opacity: 0%;
+    position: absolute;
+    animation: infinite D3 3s;
+    top: 2200px;
+    left: 600px;
+}
+
+.dorian-anim-4 {
+    font-family: bc-rebecca-ordinary, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 160px; 
+    opacity: 0%;
+    position: absolute;
+    animation: infinite D4 3s;
+    top: 3400px;
+    left: 600px;
+}
+
+.dorian-anim-5 {
+    font-family: looking-flowers-caps, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px; 
+    opacity: 0%;
+    position: absolute;
+    animation: infinite D5 3s;
+    top: 4900px;
+    left: 600px;
+}
+
+.dorian-anim-6 {
+    font-family: bc-rebecca-obsolete, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 160px; 
+    opacity: 0%;
+    position: absolute;
+    animation: infinite D6 3s;
+    top: 6200px;
+    left: 600px;
+}
+
+.dorian-anim-7 {
+    font-family: looking-flowers-caps, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px; 
+    opacity: 0%;
+    position: absolute;
+    animation: infinite D7 2.5s;
+    top: 7450px;
+    left: 600px;
+}
+
+.dorian-anim-8 {
+    font-family: bc-rebecca-grim, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 160px; 
+    opacity: 0%;
+    position: absolute;
+    animation: infinite D8 2s;
+    top: 8900px;
+    left: 600px;
+}
+
+.dorian-anim-9 {
+    font-family: looking-flowers-caps, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200px; 
+    opacity: 0%;
+    position: absolute;
+    animation: infinite D9 1s;
+    top: 10100px;
+    left: 600px;
+}
+
+.dorian-anim-10 {
+    font-family: elliotts-blue-eyeshadow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px; 
+    opacity: 0%;
+    position: absolute;
+    animation: infinite D10 2s;
+    top: 11400px;
+    left: 600px;
+    rotate: 0deg;    
+}
+
 /* ---------- PERSONNAGES CONTAINER ----------   */
 .perso-container {
     display: grid;
     grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
-    height: 50vh;
+    height: 60vh;
     width: 100vw;
     border:blue 5px solid;
+    
 }
 
 .dorian {
-    position: absolute;
-    font-size: 100px;
-   
-
+    font-size: 150px;
+    font-family: looking-flowers-caps, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: grid;
+    grid-column-start:2;
+    grid-column-end: 7;
+    grid-row-start: 2;
 }
 
 .basil {
-    position: absolute;
-    font-size: 100px;
-    left: 50%;
+    font-family: utopian, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 200px;
+    display: grid;
+    grid-column-start: 9;
+    grid-row-start: 1;
+    z-index: 1;
 }
 
 .tableau {
-
+    height: 300px;
+    grid-column-start: 6;
+    grid-row-start: 2;
+ 
 }
+
 
 /* ---------- HARRY CONTAINER ----------   */
 
 .harry-container {
     display: grid;
-    grid-template: repeat(3, 122px) 1fr / repeat(11, 160px) 1fr; 
-    height: 40vh;
+    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
+    height: 100vh;
     width: 100vw;
-    border:orange 5px solid;
-
+    border :orange 5px solid;
 }
 
 .harry {
-font-size: 100px;
-grid-column-start: 5;
-grid-column-end: 8;
-grid-row-start: 1;
-grid-row-end: 2;
+    grid-column-start:1;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    grid-row-end: 12; 
+    height: 65vh;
 }
+
+
 
 
 /* ---------- CADRE1 CONTAINER ---------- */
@@ -270,3 +411,181 @@ grid-row-start: 3;
     grid-column-start: 2;
     grid-row-start: 3;
 }
+
+/*---------- ANIMATIONS DORIAN----------   */
+@keyframes D1 {
+from {
+    top: 300px;
+    opacity: 0%;
+}
+
+15% {
+    opacity: 100%;
+}
+
+60% {
+    opacity: 0%;
+}
+
+to { 
+    top: 700px;
+    opacity: 0%;   
+ }
+}
+
+@keyframes D2 {
+    from {
+        top: 900px;
+        opacity: 0%;
+    }
+    
+    15% {
+        opacity: 100%;
+    }
+    
+    60% {
+        opacity: 0%;
+    }
+
+    to { 
+        top: 1550px;
+        opacity: 0%;
+     }
+    }
+
+    @keyframes D3 {
+
+        from {
+            top: 2200px;
+            opacity: 0%;
+        }
+        
+        15% {
+            opacity: 100%;
+        }
+        to { 
+            top: 2800px;
+            opacity: 0%;
+         }
+    }
+    
+    @keyframes D4 {
+
+        from {
+            top: 3400px;
+            opacity: 0%;
+        }
+        
+        15% {
+            opacity: 100%;
+        }
+        to { 
+            top: 4200px;
+            opacity: 0%;
+         }
+    }
+    
+    @keyframes D5 {
+
+        from {
+            top: 4900px;
+            opacity: 0%;
+        }
+        
+        15% {
+            opacity: 100%;
+        }
+        to { 
+            top: 5500px;
+            opacity: 0%;
+         }
+    }
+    
+    @keyframes D6 {
+
+        from {
+            top: 6200px;
+            opacity: 0%;
+        }
+        
+        15% {
+            opacity: 100%;
+        }
+        to { 
+            top: 6700px;
+            opacity: 0%;
+         }
+    }
+    
+    @keyframes D7 {
+
+        from {
+            top: 7450px;
+            opacity: 0%;
+        }
+        
+        15% {
+            opacity: 100%;
+        }
+        to { 
+            top: 8100px;
+            opacity: 0%;
+         }
+    }
+    
+    @keyframes D8 {
+
+        from {
+            top: 8900px;
+            opacity: 0%;
+        }
+        
+        15% {
+            opacity: 100%;
+        }
+        to { 
+            top: 9300px;
+            opacity: 0%;
+         }
+    }
+
+    @keyframes D9 {
+
+        from {
+            top: 10100px;
+            opacity: 0%;
+        }
+        
+        15% {
+            opacity: 100%;
+        }
+        to { 
+            top: 10400px;
+            opacity: 0%;
+         }
+    }
+
+    
+    @keyframes D10 {
+
+        from {
+            top: 11400px;
+            opacity: 0%;
+            rotate: 0deg;;
+        }
+        
+        25% {
+            opacity: 100%;
+            rotate: 25deg;
+        }
+
+        55%{
+            rotate: 55deg;
+        }
+ 
+        to { 
+            top: 13400px;
+            opacity: 0%;
+            rotate: 55deg;
+         }
+    }
