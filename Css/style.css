@@ -294,10 +294,22 @@ grid-row-start: 3;
     height: 90vh;
 }
 
-.cadre-3{
-    grid-column-start: 2;
-    grid-row-start: 3;
+.cadre3-A{
+ position: absolute;
+ left: 10%;
+ top: 795%;
 }
+
+.cadre3-B{
+    position: absolute;
+    left: 10%;
+    top: 795%;
+   }
+.cadre3-A  {
+animation: infinite glitch 0.5s;
+}
+
+
 
 .portrait-3 {
     grid-column-start: 2;
@@ -335,15 +347,48 @@ grid-row-start: 3;
     height: 90vh;
 }
 
-.cadre-4 {
-    grid-column-start: 2;
-    grid-row-start: 3;
-}
+.cadre4-A{
+    position: absolute;
+    left: 10%;
+    top: 1100%;
+   }
+   
+   .cadre4-B{
+    position: absolute;
+    left: 10%;
+    top: 1100%;
+      }
 
-.portrait-4 {
-    grid-column-start: 2;
-    grid-row-start: 3;
-}
+   .cadre4-B  {
+   animation: infinite glitch-1 0.5s;
+   }
+
+   .cadre4-A  {
+    animation: reverse infinite glitch-1 0.5s;
+    }
+
+    .portrait4-A {
+    position: absolute;
+    left: 10%;
+    top: 1100%;
+    animation: reverse infinite glitch-1 0.5s;
+    }
+
+    .portrait4-B {
+        position: absolute;
+        left: 10%;
+        top: 1100%;
+        }
+
+    .portrait4-C {
+    position: absolute;
+    left: 10%;
+    top: 1100%;
+    animation: reverse infinite glitch-1 0.5s;
+    }
+        
+    
+
 
 /* ---------- TOTAL CONTAINER ---------- */
 
@@ -453,139 +498,159 @@ to {
      }
     }
 
-    @keyframes D3 {
+@keyframes D3 {
 
-        from {
-            top: 2200px;
-            opacity: 0%;
-        }
-        
-        15% {
-            opacity: 100%;
-        }
-        to { 
-            top: 2800px;
-            opacity: 0%;
-         }
+    from {
+        top: 2200px;
+        opacity: 0%;
     }
     
-    @keyframes D4 {
+    15% {
+        opacity: 100%;
+    }
+    to { 
+        top: 2800px;
+        opacity: 0%;
+        }
+}
 
-        from {
-            top: 3400px;
-            opacity: 0%;
-        }
-        
-        15% {
-            opacity: 100%;
-        }
-        to { 
-            top: 4200px;
-            opacity: 0%;
-         }
+@keyframes D4 {
+
+    from {
+        top: 3400px;
+        opacity: 0%;
     }
     
-    @keyframes D5 {
+    15% {
+        opacity: 100%;
+    }
+    to { 
+        top: 4200px;
+        opacity: 0%;
+        }
+}
 
-        from {
-            top: 4900px;
-            opacity: 0%;
-        }
-        
-        15% {
-            opacity: 100%;
-        }
-        to { 
-            top: 5500px;
-            opacity: 0%;
-         }
+@keyframes D5 {
+
+    from {
+        top: 4900px;
+        opacity: 0%;
     }
     
-    @keyframes D6 {
+    15% {
+        opacity: 100%;
+    }
+    to { 
+        top: 5500px;
+        opacity: 0%;
+        }
+}
 
-        from {
-            top: 6200px;
-            opacity: 0%;
-        }
-        
-        15% {
-            opacity: 100%;
-        }
-        to { 
-            top: 6700px;
-            opacity: 0%;
-         }
+@keyframes D6 {
+
+    from {
+        top: 6200px;
+        opacity: 0%;
     }
     
-    @keyframes D7 {
+    15% {
+        opacity: 100%;
+    }
+    to { 
+        top: 6700px;
+        opacity: 0%;
+        }
+}
 
-        from {
-            top: 7450px;
-            opacity: 0%;
-        }
-        
-        15% {
-            opacity: 100%;
-        }
-        to { 
-            top: 8100px;
-            opacity: 0%;
-         }
+@keyframes D7 {
+
+    from {
+        top: 7450px;
+        opacity: 0%;
     }
     
-    @keyframes D8 {
-
-        from {
-            top: 8900px;
-            opacity: 0%;
-        }
-        
-        15% {
-            opacity: 100%;
-        }
-        to { 
-            top: 9300px;
-            opacity: 0%;
-         }
+    15% {
+        opacity: 100%;
     }
-
-    @keyframes D9 {
-
-        from {
-            top: 10100px;
-            opacity: 0%;
+    to { 
+        top: 8100px;
+        opacity: 0%;
         }
-        
-        15% {
-            opacity: 100%;
-        }
-        to { 
-            top: 10400px;
-            opacity: 0%;
-         }
+}
+
+@keyframes D8 {
+
+    from {
+        top: 8900px;
+        opacity: 0%;
     }
-
     
-    @keyframes D10 {
-
-        from {
-            top: 11400px;
-            opacity: 0%;
-            rotate: 0deg;;
-        }
-        
-        25% {
-            opacity: 100%;
-            rotate: 25deg;
-        }
-
-        55%{
-            rotate: 55deg;
-        }
- 
-        to { 
-            top: 13400px;
-            opacity: 0%;
-            rotate: 55deg;
-         }
+    15% {
+        opacity: 100%;
     }
+    to { 
+        top: 9300px;
+        opacity: 0%;
+        }
+}
+
+@keyframes D9 {
+
+    from {
+        top: 10100px;
+        opacity: 0%;
+    }
+    
+    15% {
+        opacity: 100%;
+    }
+    to { 
+        top: 10400px;
+        opacity: 0%;
+        }
+}
+
+
+@keyframes D10 {
+
+    from {
+        top: 11400px;
+        opacity: 0%;
+        rotate: 0deg;;
+    }
+    
+    25% {
+        opacity: 100%;
+        rotate: 25deg;
+    }
+
+    55%{
+        rotate: 55deg;
+    }
+
+    to { 
+        top: 13400px;
+        opacity: 0%;
+        rotate: 75deg;
+        }
+}
+
+/*---------- ANIMATIONS CADRE----------   */
+
+@keyframes glitch-1 {
+
+    from{
+    left:10%
+    }
+
+    to {
+        left:11%
+    }
+}
+
+
+
+
+
+
+/*---------- ANIMATIONS PORTRAIT----------   */
