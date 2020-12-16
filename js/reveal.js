@@ -31,28 +31,28 @@ sr.reveal('.cadre1-container', {delay: 600, origin: 'top', distance: '50px',view
 sr.reveal('.cadre2-container', {delay: 600, origin: 'top', distance: '50px',viewFactor: 0.2,});
 sr.reveal('.cadre3-container', {delay: 600, viewFactor: 0.5,});
 sr.reveal('.cadre4-container', {delay: 600, viewFactor: 0.5,});
-sr.reveal('.cadre5-container', {delay: 900, viewFactor: 0.2,});
+sr.reveal('.cadre5-container', {delay: 900, viewFactor: 0.5,});
         
 // section NUAGE 
-sr.reveal('.easy-1', {delay: 600, origin: 'top', distance: '50px',viewFactor: 0.2,});
-sr.reveal('.easy-2', {delay: 900, origin: 'top', distance: '50px',viewFactor: 0.2,});
-sr.reveal('.easy-3', {delay: 1200, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.easy-1', {delay: 200, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.easy-2', {delay: 400, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.easy-3', {delay: 600, origin: 'top', distance: '50px',viewFactor: 0.2,});
 
-sr.reveal('.mid-soft', {delay: 900, origin: 'top', distance: '50px',viewFactor: 0.2,});
-sr.reveal('.mid-1', {delay: 900, origin: 'top', distance: '50px',viewFactor: 0.2,});
-sr.reveal('.mid-2', {delay: 1200, origin: 'top', distance: '50px',viewFactor: 0.2,});
-sr.reveal('.mid-3', {delay: 1600, origin: 'top', distance: '50px',viewFactor: 0.2,});
-sr.reveal('.mid-4', {delay: 2000, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.mid-soft', {delay: 200, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.mid-1', {delay: 400, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.mid-2', {delay: 600, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.mid-3', {delay: 800, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.mid-4', {delay: 1000, origin: 'top', distance: '50px',viewFactor: 0.2,});
 
-sr.reveal('.hard-soft', {delay: 600, origin: 'top', distance: '50px',viewFactor: 0.2,});
-sr.reveal('.hard-mid', {delay: 900, origin: 'top', distance: '50px',viewFactor: 0.2,});
-sr.reveal('.hard-1', {delay: 1200, origin: 'top', distance: '50px',viewFactor: 0.2,});
-sr.reveal('.hard-2', {delay: 1600, origin: 'top', distance: '50px',viewFactor: 0.2,});
-sr.reveal('.hard-3', {delay: 2000, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.hard-soft', {delay: 200, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.hard-mid', {delay: 400, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.hard-1', {delay: 600, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.hard-2', {delay: 800, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.hard-3', {delay: 1000, origin: 'top', distance: '50px',viewFactor: 0.2,});
 
-sr.reveal('.total-A', {delay: 600, origin: 'top', distance: '50px',viewFactor: 0.2,});
-sr.reveal('.total-B', {delay: 900, origin: 'top', distance: '50px',viewFactor: 0.2,});
-sr.reveal('.total-C', {delay: 1200, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.total-A', {delay: 200, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.total-B', {delay: 400, origin: 'top', distance: '50px',viewFactor: 0.2,});
+sr.reveal('.total-C', {delay: 600, origin: 'top', distance: '50px',viewFactor: 0.2,});
 
     
 
