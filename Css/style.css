@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;   
     width: 100%;
+    height: 100%;
     justify-content: center; 
     background: linear-gradient(#faebd7,#f0ffff,#556b2f,#ff0000,#ffffff);
 }
@@ -128,7 +129,7 @@
     font-size: 120px; 
     opacity: 0%;
     position: absolute;
-    animation: infinite D10 2s;
+    animation: infinite D10 10s;
     top: 11400px;
     left: 600px;
     rotate: 0deg;    
@@ -426,8 +427,8 @@ animation: reverse infinite glitch-1 0.5s;
     position: absolute;
     left: 10%;
     top: 1380%;
-    animation: CA infinite 3s;
-    animation-delay: 4s;
+    animation: CA infinite 10s;
+    animation-delay: 2s;
    
    
 }
@@ -436,32 +437,32 @@ animation: reverse infinite glitch-1 0.5s;
     position: absolute;
     left: 10%;
     top: 1380%;
-    animation: CB infinite 3s;
-    animation-delay: 4s;
+    animation: CB infinite 10s;
+    animation-delay: 2s;
 }
 
 .cadre5-C{
     position: absolute;
     left: 10%;
     top: 1380%;
-    animation: CC infinite 3s;
-    animation-delay: 4s;
+    animation: CC infinite 10s;
+    animation-delay: 2s;
 }
 
 .cadre5-D{
     position: absolute;
     left: 10%;
     top: 1380%;
-    animation: CD infinite 3s;
-    animation-delay: 4s;
+    animation: CD infinite 10s;
+    animation-delay: 2s;
 }
 
 .portrait5-A {
     position: absolute;
     left: 10%;
     top: 1380%;
-    animation: infinite PA 1s;
-    animation-delay: 4s;
+    animation: infinite PA 10s;
+    animation-delay: 2s;
  
 }
 
@@ -469,24 +470,24 @@ animation: reverse infinite glitch-1 0.5s;
     position: absolute;
     left: 10%;
     top: 1380%;
-    animation: PB infinite 1s;
-    animation-delay: 4s;
+    animation: PB infinite 10s;
+    animation-delay: 2s;
 }
 
 .portrait5-C {
     position: absolute;
     left: 10%;
     top: 1380%;
-    animation: PC infinite 1s;
-    animation-delay: 4s;
+    animation: PC infinite 10s;
+    animation-delay: 2s;
 }
 
 .portrait5-D {
     position: absolute;
     left: 10%;
     top: 1380%;
-    animation: PD infinite 1s;
-    animation-delay: 4s;
+    animation: PD infinite 10s;
+    animation-delay: 2s;
     
 }
 
@@ -494,16 +495,16 @@ animation: reverse infinite glitch-1 0.5s;
     position: absolute;
     left: 10%;
     top: 1380%;
-    animation: PE infinite 1s;
-    animation-delay: 4s;
+    animation: PE infinite 10s;
+    animation-delay: 2s;
 }
 
 .portrait5-F {
     position: absolute;
     left: 10%;
     top: 1380%;
-    animation: PF infinite 1s;
-    animation-delay: 4s;
+    animation: PF infinite 10s;
+    animation-delay: 2s;
    
 }
 
@@ -511,16 +512,16 @@ animation: reverse infinite glitch-1 0.5s;
     position: absolute;
     left: 10%;
     top: 1380%;
-    animation: PG infinite 1s;
-    animation-delay: 4s;
+    animation: PG infinite 10s;
+    animation-delay: 2s;
 }
 
 .portrait5-H {
     position: absolute;
     left: 10%;
     top: 1380%;
-    animation: PG infinite 1s;
-    animation-delay: 4s;
+    animation: PG infinite 10s;
+    animation-delay: 2s;
     
 }
 
