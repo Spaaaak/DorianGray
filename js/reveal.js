@@ -1,10 +1,6 @@
 $(function() {
        
 // ScrollReveal
-
-
-    
-    
 // On stocke la fonction ScrollReveal() dans une variable pour l'appeler facilement
     var sr=ScrollReveal({
     duration: 2000,
