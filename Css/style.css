@@ -3,6 +3,7 @@
     flex-direction: column;   
     width: 100%;
     justify-content: center; 
+    background: linear-gradient(#faebd7,#f0ffff,#556b2f,#ff0000,#ffffff);
 }
 
 /* ---------- DORIAN ANIM ----------   */
@@ -14,10 +15,12 @@
     font-size: 200px;
     position: absolute;
     animation: infinite D1 3s;
+    /* animation-delay: 4s; */
     top: 300px;
     left: 600px;
-    
+    opacity: 100%;
     }
+
 
 .dorian-anim-2 {
     font-family: bc-rebecca-sharp, sans-serif;
@@ -28,6 +31,7 @@
     opacity: 0%;
     animation: infinite D2 3s;
     animation-delay: 1.8s;
+    animation-delay: 4s;
     top: 900px;
     left: 600px;
     
@@ -62,10 +66,10 @@
     font-weight: 400;
     font-style: normal;
     font-size: 200px; 
-    opacity: 0%;
+    opacity: 100%;
     position: absolute;
     animation: infinite D5 3s;
-    top: 4900px;
+    top: 5000px;
     left: 600px;
 }
 
@@ -77,7 +81,7 @@
     opacity: 0%;
     position: absolute;
     animation: infinite D6 3s;
-    top: 6200px;
+    top: 6500px;
     left: 600px;
 }
 
@@ -86,10 +90,10 @@
     font-weight: 400;
     font-style: normal;
     font-size: 200px; 
-    opacity: 0%;
+    opacity: 100%;
     position: absolute;
     animation: infinite D7 2.5s;
-    top: 7450px;
+    top: 7650px;
     left: 600px;
 }
 
@@ -98,10 +102,10 @@
     font-weight: 400;
     font-style: normal;
     font-size: 160px; 
-    opacity: 0%;
+    opacity: 100%;
     position: absolute;
     animation: infinite D8 2s;
-    top: 8900px;
+    top: 9100px;
     left: 600px;
 }
 
@@ -110,10 +114,10 @@
     font-weight: 400;
     font-style: normal;
     font-size: 200px; 
-    opacity: 0%;
+    opacity: 100%;
     position: absolute;
     animation: infinite D9 1s;
-    top: 10100px;
+    top: 10450px;
     left: 600px;
 }
 
@@ -136,7 +140,7 @@
     grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
     height: 60vh;
     width: 100vw;
-    border:blue 5px solid;
+    /* border:blue 5px solid; */
     
 }
 
@@ -177,7 +181,7 @@
     grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
     height: 100vh;
     width: 100vw;
-    border :orange 5px solid;
+    /* border :orange 5px solid; */
 }
 
 .harry {
@@ -197,7 +201,7 @@
         grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
         height: 150vh;
         width: 100vw;
-        border: red 5px solid;
+        /* border: red 5px solid; */
 }
 
 .cadre1-container img {
@@ -224,7 +228,7 @@ grid-row-start: 3;
     grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
     height: 150vh;
     width: 100vw;
-    border: blue 5px solid;
+    /* border: blue 5px solid; */
 }
 
 .soft-container img {
@@ -245,7 +249,7 @@ grid-row-start: 3;
     grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
     height: 150vh;
     width: 100vw;
-    border: orange 5px solid;
+    /* border: orange 5px solid; */
 }
 
 .cadre2-container img {
@@ -268,7 +272,7 @@ grid-row-start: 3;
     display: grid;
     grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
     width: 100vw;
-    border:violet 5px solid;
+    /* border:violet 5px solid; */
 }
 
 .mid-container img {
@@ -287,7 +291,7 @@ grid-row-start: 3;
     grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
     height: 150vh;
     width: 100vw;
-    border: gray 5px solid;
+    /* border: gray 5px solid; */
 }
 
 .cadre3-container img{
@@ -298,22 +302,21 @@ grid-row-start: 3;
  position: absolute;
  left: 10%;
  top: 795%;
+ animation: infinite glitch-1 0.5s;
 }
 
 .cadre3-B{
-    position: absolute;
-    left: 10%;
-    top: 795%;
-   }
-.cadre3-A  {
-animation: infinite glitch 0.5s;
+position: absolute;
+left: 10%;
+top: 795%;
 }
+
 
 
 
 .portrait-3 {
     grid-column-start: 2;
-    grid-row-start: 3;
+    grid-row-start: 4;
 }
 /* ---------- HARD CONTAINER ---------- */
 
@@ -321,7 +324,7 @@ animation: infinite glitch 0.5s;
     display: grid;
     grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
     width: 100vw;
-    border: greenyellow 5px solid;
+    /* border: greenyellow 5px solid; */
 }
 
 .hard-container img {
@@ -340,7 +343,7 @@ animation: infinite glitch 0.5s;
     grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
     height: 150vh;
     width: 100vw;
-    border: royalblue 5px solid;
+    /* border: royalblue 5px solid; */
 }
 
 .cadre4-container img{
@@ -353,40 +356,37 @@ animation: infinite glitch 0.5s;
     top: 1100%;
    }
    
-   .cadre4-B{
+.cadre4-B{
+position: absolute;
+left: 10%;
+top: 1100%;
+animation: infinite glitch-1 0.5s;
+}
+
+.cadre4-A  {
+animation: reverse infinite glitch-1 0.5s;
+}
+
+.portrait4-A {
+position: absolute;
+left: 10%;
+top: 1100%;
+animation: reverse infinite glitch-1 0.5s;
+}
+
+.portrait4-B {
     position: absolute;
     left: 10%;
     top: 1100%;
-      }
-
-   .cadre4-B  {
-   animation: infinite glitch-1 0.5s;
-   }
-
-   .cadre4-A  {
-    animation: reverse infinite glitch-1 0.5s;
     }
 
-    .portrait4-A {
-    position: absolute;
-    left: 10%;
-    top: 1100%;
-    animation: reverse infinite glitch-1 0.5s;
-    }
-
-    .portrait4-B {
-        position: absolute;
-        left: 10%;
-        top: 1100%;
-        }
-
-    .portrait4-C {
-    position: absolute;
-    left: 10%;
-    top: 1100%;
-    animation: reverse infinite glitch-1 0.5s;
-    }
-        
+.portrait4-C {
+position: absolute;
+left: 10%;
+top: 1100%;
+animation: reverse infinite glitch-1 0.5s;
+}
+    
     
 
 
@@ -397,7 +397,7 @@ animation: infinite glitch 0.5s;
     grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
     height: 150vh;
     width: 100vw;
-    border: yellow 5px solid;
+    /* border: yellow 5px solid; */
 }
 
 .total-container img {
@@ -415,32 +415,122 @@ animation: infinite glitch 0.5s;
     grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
     height: 150vh;
     width: 100vw;
-    border: red 5px solid;
+    /* border: red 5px solid; */
 }
 
 .cadre5-container img{
     height: 90vh;
 }
 
-.cadre-5{
-    grid-column-start: 2;
-    grid-row-start: 3;
+.cadre5-A{
+    position: absolute;
+    left: 10%;
+    top: 1380%;
+    animation: CA infinite 3s;
+    animation-delay: 4s;
+   
+   
 }
 
-.portrait-5{
-    grid-column-start: 2;
-    grid-row-start: 3;
+.cadre5-B{
+    position: absolute;
+    left: 10%;
+    top: 1380%;
+    animation: CB infinite 3s;
+    animation-delay: 4s;
 }
 
+.cadre5-C{
+    position: absolute;
+    left: 10%;
+    top: 1380%;
+    animation: CC infinite 3s;
+    animation-delay: 4s;
+}
 
+.cadre5-D{
+    position: absolute;
+    left: 10%;
+    top: 1380%;
+    animation: CD infinite 3s;
+    animation-delay: 4s;
+}
+
+.portrait5-A {
+    position: absolute;
+    left: 10%;
+    top: 1380%;
+    animation: infinite PA 1s;
+    animation-delay: 4s;
+ 
+}
+
+.portrait5-B {
+    position: absolute;
+    left: 10%;
+    top: 1380%;
+    animation: PB infinite 1s;
+    animation-delay: 4s;
+}
+
+.portrait5-C {
+    position: absolute;
+    left: 10%;
+    top: 1380%;
+    animation: PC infinite 1s;
+    animation-delay: 4s;
+}
+
+.portrait5-D {
+    position: absolute;
+    left: 10%;
+    top: 1380%;
+    animation: PD infinite 1s;
+    animation-delay: 4s;
+    
+}
+
+.portrait5-E {
+    position: absolute;
+    left: 10%;
+    top: 1380%;
+    animation: PE infinite 1s;
+    animation-delay: 4s;
+}
+
+.portrait5-F {
+    position: absolute;
+    left: 10%;
+    top: 1380%;
+    animation: PF infinite 1s;
+    animation-delay: 4s;
+   
+}
+
+.portrait5-G {
+    position: absolute;
+    left: 10%;
+    top: 1380%;
+    animation: PG infinite 1s;
+    animation-delay: 4s;
+}
+
+.portrait5-H {
+    position: absolute;
+    left: 10%;
+    top: 1380%;
+    animation: PG infinite 1s;
+    animation-delay: 4s;
+    
+}
 
 /* ------------ CADRE 6 ------------  */
 .cadre6-container {
     display: grid;
     grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
-    height: 150vh;
+    height: 15=40vh;
     width: 100vw;
-    border: blueviolet 5px solid;
+    /* border: blueviolet 5px solid; */
 }
 
 .cadre6-container img {
@@ -457,6 +547,22 @@ animation: infinite glitch 0.5s;
     grid-row-start: 3;
 }
 
+.dorian-dust-container {
+    display: grid;
+    grid-template: repeat(10, 122px) 1fr / repeat(20, 160px) 1fr; 
+    height: 20vh;
+    width: 100vw;
+    /* border: blueviolet 5px solid; */
+}
+
+.dorian-dust-container img {
+    height: 20vh;
+}
+.dorian-dust {
+    grid-column-start: 5;
+    grid-row-start: 1;
+    
+}
 /*---------- ANIMATIONS DORIAN----------   */
 @keyframes D1 {
 from {
@@ -533,7 +639,7 @@ to {
 @keyframes D5 {
 
     from {
-        top: 4900px;
+        top: 5000px;
         opacity: 0%;
     }
     
@@ -549,7 +655,7 @@ to {
 @keyframes D6 {
 
     from {
-        top: 6200px;
+        top: 6500px;
         opacity: 0%;
     }
     
@@ -557,7 +663,7 @@ to {
         opacity: 100%;
     }
     to { 
-        top: 6700px;
+        top: 6900px;
         opacity: 0%;
         }
 }
@@ -565,7 +671,7 @@ to {
 @keyframes D7 {
 
     from {
-        top: 7450px;
+        top: 7650px;
         opacity: 0%;
     }
     
@@ -581,7 +687,7 @@ to {
 @keyframes D8 {
 
     from {
-        top: 8900px;
+        top: 9100px;
         opacity: 0%;
     }
     
@@ -589,7 +695,7 @@ to {
         opacity: 100%;
     }
     to { 
-        top: 9300px;
+        top: 9700px;
         opacity: 0%;
         }
 }
@@ -597,7 +703,7 @@ to {
 @keyframes D9 {
 
     from {
-        top: 10100px;
+        top: 10450px;
         opacity: 0%;
     }
     
@@ -605,7 +711,7 @@ to {
         opacity: 100%;
     }
     to { 
-        top: 10400px;
+        top: 10700px;
         opacity: 0%;
         }
 }
@@ -631,11 +737,11 @@ to {
     to { 
         top: 13400px;
         opacity: 0%;
-        rotate: 75deg;
+        rotate: 55deg;
         }
 }
 
-/*---------- ANIMATIONS CADRE----------   */
+/*---------- ANIMATIONS GLITCH----------   */
 
 @keyframes glitch-1 {
 
@@ -648,9 +754,176 @@ to {
     }
 }
 
+/*---------- ANIMATIONS CADRE 5----------   */
+
+@keyframes CA {
+    from{
+        left:10%;
+        top: 1380%;
+    }
+
+    to {
+        left:-10%;
+        top: 1340%;
+        rotate: 25deg;
+    }
+}
+
+@keyframes CB {
+    from{
+        left:10%;
+        top: 1380%;
+    }
+
+    to {
+        left:20%;
+        top: 1340%;
+        rotate: 25deg;
+    }
+}
+
+@keyframes CC {
+    from{
+        left:10%;
+        top: 1380%;
+    }
+
+    to {
+        left:-10%;
+        top: 1400%;
+        rotate: 25deg;
+    }
+}
+
+@keyframes CD {
+    from{
+        left:10%;
+        top: 1380%;
+    }
+
+    to {
+        left:20%;
+        top: 1400%;
+        rotate: 25deg;
+    }
+}
+
+/*---------- ANIMATIONS PORTRAIT 5----------   */
+
+@keyframes PA {
+    from {
+        left: 10%;
+        top: 1380%;
+    }
+
+    to {
+        left: 9% ;
+        top: 1360%;
+        rotate: -15deg;
+    }
+}
+
+@keyframes PB {
+    from {
+        left: 10%;
+        top: 1380%;
+    }
+
+    to {
+        left: 9% ;
+        top: 1380%;
+        rotate: -15deg;
+    }
+}
+
+@keyframes PC {
+    from {
+        left: 10%;
+        top: 1380%;
+    }
+
+    to {
+        left: 10% ;
+        top: 1450%;
+        rotate: -1deg;
+    }
+}
+
+@keyframes PC {
+    from {
+        left: 10%;
+        top: 1380%;
+    }
+
+    to {
+        left: 10% ;
+        top: 1450%;
+        rotate: -10deg;
+    }
+}
+
+@keyframes PD {
+    from {
+        left: 10%;
+        top: 1380%;
+    }
+
+    to {
+        left: 5% ;
+        top: 1450%;
+        rotate: -15deg;
+    }
+}
+
+@keyframes PE {
+    from {
+        left: 10%;
+        top: 1380%;
+    }
+
+    to {
+        left: 20% ;
+        top: 1340%;
+        rotate: -15deg;
+    }
+}
+
+@keyframes PF {
+    from {
+        left: 10%;
+        top: 1380%;
+    }
+
+    to {
+        left: 20% ;
+        top: 1340%;
+        rotate: -10deg;
+    }
+}
+
+@keyframes PG {
+    from {
+        left: 10%;
+        top: 1380%;
+    }
+
+    to {
+        left: 20% ;
+        top: 1340%;
+        rotate: -10deg;
+    }
+}
 
 
+@keyframes PH {
+    from {
+        left: 10%;
+        top: 1380%;
+    }
 
-
-
-/*---------- ANIMATIONS PORTRAIT----------   */
+    to {
+        left: 20% ;
+        top: 1340%;
+        rotate: -10deg;
+    }
+}
